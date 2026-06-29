@@ -8,7 +8,8 @@ from dashboard import sales_dashboard
 from database import connect_database
 
 def main():
-
+    connection = connect_database
+    
     print("=" * 60)
     print(" CUSTOMER SHOPPING BEHAVIOR ANALYSIS PROJECT ")
     print("=" * 60)
