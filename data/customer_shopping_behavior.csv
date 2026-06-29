@@ -1,0 +1,1001 @@
+﻿Customer ID,Age,Gender,Category,Purchase Amount (USD),Payment Method,Location,Review Rating
+1,58,Female,Clothing,32,Debit Card,Mumbai,2.8
+2,24,Female,Sports,64,Credit Card,Delhi,2.7
+3,32,Male,Sports,328,Debit Card,Hyderabad,4.1
+4,52,Female,Home,132,Cash,Pune,4.7
+5,28,Female,Home,194,Debit Card,Mumbai,4.9
+6,39,Female,Clothing,67,Credit Card,Bengaluru,4.6
+7,56,Male,Beauty,433,UPI,Chennai,2.8
+8,42,Female,Clothing,302,Cash,Chennai,3
+9,22,Male,Clothing,358,Cash,Delhi,4.6
+10,24,Female,Home,162,Cash,Mumbai,3.4
+11,31,Male,Beauty,379,Debit Card,Chennai,4.3
+12,28,Female,Home,214,Debit Card,Hyderabad,3.3
+13,21,Male,Electronics,440,Cash,Kolkata,3.2
+14,31,Female,Sports,468,Debit Card,Hyderabad,3.7
+15,59,Female,Home,93,Debit Card,Mumbai,4.4
+16,52,Female,Beauty,402,UPI,Bengaluru,3
+17,26,Male,Sports,272,Credit Card,Pune,2.8
+18,58,Female,Electronics,425,Credit Card,Kolkata,3.5
+19,47,Male,Sports,148,Credit Card,Hyderabad,4.7
+20,35,Female,Beauty,77,UPI,Mumbai,3.6
+21,64,Male,Beauty,276,Credit Card,Pune,4.1
+22,58,Male,Sports,331,Debit Card,Bengaluru,4.4
+23,52,Male,Sports,490,Cash,Kolkata,2.5
+24,41,Male,Beauty,142,Debit Card,Chennai,4.9
+25,23,Male,Home,437,Debit Card,Mumbai,4.1
+26,53,Female,Electronics,155,Debit Card,Chennai,4.4
+27,62,Female,Electronics,385,UPI,Hyderabad,4.1
+28,46,Male,Sports,251,Debit Card,Mumbai,2.7
+29,19,Male,Sports,303,Debit Card,Delhi,2.7
+30,58,Male,Clothing,137,Credit Card,Pune,3.3
+31,50,Female,Electronics,162,Debit Card,Chennai,2.8
+32,54,Male,Sports,262,UPI,Pune,3.5
+33,24,Female,Clothing,357,Cash,Kolkata,3.5
+34,64,Male,Clothing,364,Credit Card,Kolkata,4.3
+35,24,Male,Electronics,118,UPI,Mumbai,3.6
+36,35,Male,Home,147,UPI,Pune,4.7
+37,53,Male,Clothing,45,Credit Card,Pune,4.6
+38,28,Female,Home,268,Debit Card,Pune,3.5
+39,21,Male,Electronics,214,UPI,Bengaluru,4.8
+40,47,Female,Beauty,236,Debit Card,Mumbai,3.2
+41,21,Male,Sports,396,Cash,Delhi,2.6
+42,48,Male,Sports,490,Credit Card,Chennai,2.7
+43,29,Male,Clothing,324,Debit Card,Kolkata,2.8
+44,54,Male,Electronics,316,Credit Card,Kolkata,4.1
+45,54,Female,Sports,181,Debit Card,Hyderabad,4.3
+46,33,Male,Beauty,222,Cash,Kolkata,3.3
+47,22,Male,Clothing,254,Credit Card,Chennai,3
+48,34,Female,Electronics,497,Credit Card,Mumbai,3.4
+49,28,Female,Home,446,Credit Card,Hyderabad,4.5
+50,37,Male,Clothing,500,Cash,Delhi,4.7
+51,65,Female,Sports,99,Cash,Chennai,3
+52,39,Female,Electronics,371,UPI,Bengaluru,4.8
+53,21,Female,Clothing,344,Cash,Delhi,2.5
+54,26,Female,Beauty,102,UPI,Chennai,2.5
+55,22,Male,Electronics,299,Cash,Chennai,3.9
+56,45,Female,Electronics,41,Cash,Pune,4.9
+57,20,Male,Beauty,127,Credit Card,Bengaluru,4.5
+58,44,Male,Sports,403,Debit Card,Pune,2.9
+59,29,Male,Home,32,Cash,Pune,4.8
+60,60,Male,Electronics,156,Credit Card,Kolkata,4.7
+61,48,Female,Electronics,122,Cash,Bengaluru,4.6
+62,32,Male,Electronics,32,UPI,Bengaluru,3.2
+63,22,Female,Beauty,199,Cash,Delhi,2.8
+64,34,Female,Electronics,317,Credit Card,Delhi,4
+65,40,Male,Beauty,243,UPI,Chennai,3
+66,20,Male,Home,20,Cash,Kolkata,2.7
+67,60,Female,Beauty,339,Credit Card,Hyderabad,4.8
+68,50,Female,Beauty,361,Cash,Kolkata,4.2
+69,53,Female,Electronics,118,UPI,Hyderabad,4.4
+70,29,Female,Sports,311,UPI,Chennai,4.6
+71,37,Female,Beauty,127,Cash,Kolkata,3.6
+72,61,Female,Electronics,281,Debit Card,Hyderabad,2.7
+73,50,Male,Sports,191,Debit Card,Hyderabad,3.3
+74,30,Male,Electronics,32,Debit Card,Kolkata,4
+75,22,Male,Home,232,UPI,Kolkata,3.5
+76,27,Male,Clothing,477,UPI,Mumbai,2.9
+77,62,Male,Sports,257,Debit Card,Pune,2.8
+78,26,Female,Home,361,UPI,Chennai,4.5
+79,50,Female,Home,445,Debit Card,Hyderabad,4.7
+80,46,Male,Beauty,404,Cash,Pune,4.4
+81,49,Female,Electronics,160,Credit Card,Hyderabad,3.2
+82,35,Male,Beauty,183,Debit Card,Mumbai,3.1
+83,62,Male,Electronics,381,Credit Card,Kolkata,3.5
+84,52,Male,Home,232,Debit Card,Pune,3.6
+85,55,Female,Clothing,458,UPI,Delhi,4.9
+86,37,Female,Home,456,Debit Card,Kolkata,3
+87,45,Female,Home,34,Cash,Hyderabad,4.2
+88,43,Female,Electronics,450,Debit Card,Chennai,3.8
+89,43,Male,Sports,308,Credit Card,Hyderabad,3.6
+90,47,Female,Electronics,45,UPI,Bengaluru,3
+91,38,Female,Beauty,409,Cash,Pune,4.9
+92,44,Male,Beauty,447,UPI,Delhi,4.4
+93,21,Male,Beauty,134,Credit Card,Pune,2.6
+94,33,Male,Electronics,449,Debit Card,Mumbai,2.8
+95,60,Male,Clothing,308,UPI,Hyderabad,3.1
+96,41,Male,Electronics,330,Debit Card,Bengaluru,2.8
+97,19,Female,Beauty,314,UPI,Hyderabad,3
+98,55,Female,Electronics,72,Credit Card,Pune,5
+99,20,Female,Beauty,292,Cash,Delhi,3.8
+100,39,Female,Clothing,454,UPI,Delhi,3.6
+101,41,Male,Home,382,UPI,Mumbai,4.3
+102,59,Female,Beauty,335,UPI,Kolkata,4.6
+103,55,Male,Beauty,185,Credit Card,Bengaluru,4.7
+104,33,Female,Home,311,Cash,Delhi,3.7
+105,38,Male,Electronics,269,Cash,Pune,3.1
+106,35,Female,Sports,379,Credit Card,Chennai,4.9
+107,23,Female,Electronics,388,UPI,Chennai,4.4
+108,62,Female,Home,350,UPI,Pune,2.5
+109,36,Male,Electronics,227,Cash,Hyderabad,4
+110,48,Female,Sports,291,UPI,Hyderabad,3.9
+111,40,Female,Home,158,Cash,Mumbai,2.8
+112,30,Male,Beauty,81,Debit Card,Mumbai,4.3
+113,35,Female,Sports,409,Credit Card,Pune,3
+114,32,Female,Beauty,111,Credit Card,Hyderabad,3.8
+115,35,Female,Clothing,47,Debit Card,Hyderabad,4.7
+116,49,Male,Clothing,466,Cash,Kolkata,3.7
+117,39,Female,Electronics,46,UPI,Delhi,4.6
+118,43,Male,Home,57,Debit Card,Mumbai,4.5
+119,37,Male,Clothing,147,UPI,Chennai,4
+120,57,Female,Electronics,417,UPI,Kolkata,3.2
+121,55,Male,Home,176,Credit Card,Pune,3
+122,31,Male,Beauty,358,Debit Card,Mumbai,2.9
+123,22,Female,Electronics,21,UPI,Hyderabad,4
+124,36,Female,Clothing,138,Cash,Hyderabad,4.6
+125,22,Female,Electronics,493,Debit Card,Kolkata,2.8
+126,32,Female,Electronics,485,Debit Card,Delhi,2.6
+127,37,Female,Sports,403,UPI,Delhi,3.7
+128,37,Female,Home,159,UPI,Delhi,4
+129,45,Female,Beauty,329,Credit Card,Delhi,3.1
+130,61,Male,Sports,320,Cash,Chennai,2.6
+131,29,Female,Home,285,Cash,Mumbai,5
+132,45,Female,Home,66,Cash,Kolkata,3.3
+133,60,Male,Clothing,459,Cash,Kolkata,4.2
+134,36,Male,Home,436,UPI,Delhi,3.3
+135,38,Female,Clothing,415,Credit Card,Hyderabad,4.7
+136,47,Male,Home,47,Cash,Chennai,4.4
+137,58,Male,Home,409,Debit Card,Bengaluru,3.9
+138,36,Female,Home,470,Credit Card,Delhi,4.9
+139,56,Male,Electronics,383,Cash,Chennai,2.5
+140,44,Male,Clothing,135,UPI,Delhi,4.1
+141,27,Female,Home,497,Cash,Kolkata,4.6
+142,48,Male,Electronics,253,UPI,Mumbai,4.8
+143,50,Male,Electronics,462,Cash,Pune,4.5
+144,44,Female,Beauty,498,Credit Card,Bengaluru,4.3
+145,55,Female,Sports,357,Debit Card,Kolkata,3.8
+146,40,Female,Beauty,302,UPI,Bengaluru,4.7
+147,62,Female,Electronics,312,Debit Card,Pune,4.4
+148,20,Female,Beauty,401,UPI,Kolkata,5
+149,59,Male,Electronics,273,Debit Card,Chennai,4.9
+150,39,Female,Clothing,467,Credit Card,Chennai,4.8
+151,18,Male,Electronics,229,Credit Card,Kolkata,4.5
+152,34,Female,Beauty,339,Credit Card,Pune,3.3
+153,61,Female,Sports,214,UPI,Pune,3.9
+154,57,Female,Clothing,140,Debit Card,Hyderabad,2.7
+155,24,Male,Clothing,247,Cash,Delhi,2.6
+156,21,Female,Beauty,203,UPI,Mumbai,3.1
+157,44,Male,Sports,369,Debit Card,Mumbai,2.7
+158,42,Male,Sports,369,UPI,Chennai,2.9
+159,47,Female,Beauty,255,Credit Card,Pune,3.7
+160,36,Male,Sports,100,UPI,Bengaluru,5
+161,37,Female,Home,373,UPI,Pune,3.3
+162,42,Male,Home,74,UPI,Chennai,3.4
+163,36,Female,Beauty,31,Cash,Delhi,3.9
+164,61,Female,Clothing,486,Cash,Pune,4.5
+165,56,Male,Beauty,132,Cash,Hyderabad,4.4
+166,60,Male,Electronics,341,Credit Card,Bengaluru,4.5
+167,20,Male,Sports,206,Credit Card,Bengaluru,3.3
+168,44,Male,Electronics,122,Cash,Chennai,3.8
+169,35,Female,Electronics,151,Cash,Hyderabad,4.7
+170,25,Male,Home,58,Debit Card,Pune,4.2
+171,61,Female,Home,453,Credit Card,Pune,3.5
+172,34,Female,Sports,83,Cash,Hyderabad,4.4
+173,34,Female,Sports,215,Credit Card,Hyderabad,3.1
+174,19,Female,Sports,472,Debit Card,Hyderabad,2.7
+175,47,Female,Beauty,352,Credit Card,Mumbai,2.6
+176,20,Male,Beauty,272,Credit Card,Mumbai,4.7
+177,26,Female,Home,252,UPI,Chennai,4.4
+178,27,Male,Home,355,UPI,Chennai,3.5
+179,35,Female,Clothing,373,Debit Card,Kolkata,3.6
+180,33,Female,Beauty,70,Cash,Delhi,3.5
+181,30,Female,Clothing,454,Credit Card,Hyderabad,3
+182,58,Male,Sports,30,Cash,Mumbai,5
+183,54,Male,Electronics,55,Debit Card,Pune,4.7
+184,39,Male,Electronics,423,Cash,Pune,5
+185,26,Male,Sports,148,Credit Card,Hyderabad,4.7
+186,26,Male,Clothing,203,Cash,Delhi,2.9
+187,21,Female,Electronics,399,Credit Card,Hyderabad,2.7
+188,46,Male,Beauty,282,UPI,Chennai,3.1
+189,57,Female,Clothing,392,UPI,Hyderabad,4.9
+190,21,Female,Home,453,UPI,Hyderabad,2.8
+191,63,Male,Home,57,Cash,Chennai,2.9
+192,26,Female,Beauty,339,UPI,Chennai,3.8
+193,47,Female,Sports,329,Credit Card,Pune,4.3
+194,59,Male,Sports,389,UPI,Kolkata,4.7
+195,44,Female,Beauty,443,UPI,Kolkata,4.3
+196,38,Female,Home,180,Cash,Mumbai,4.2
+197,48,Male,Clothing,66,Credit Card,Kolkata,2.7
+198,65,Male,Beauty,435,Credit Card,Chennai,4.9
+199,53,Male,Beauty,363,UPI,Bengaluru,4.7
+200,45,Female,Clothing,167,Cash,Delhi,3.9
+201,31,Female,Electronics,356,Debit Card,Pune,2.8
+202,53,Female,Beauty,78,Debit Card,Pune,3.6
+203,53,Male,Sports,334,Cash,Delhi,3
+204,62,Female,Beauty,491,Cash,Delhi,3
+205,27,Female,Sports,356,Credit Card,Mumbai,4.4
+206,19,Male,Clothing,402,UPI,Kolkata,3.6
+207,28,Female,Beauty,179,Credit Card,Delhi,2.9
+208,57,Male,Clothing,365,Cash,Kolkata,4.2
+209,49,Female,Sports,246,Cash,Mumbai,4.4
+210,25,Male,Beauty,240,Cash,Hyderabad,4.2
+211,49,Female,Sports,361,Credit Card,Mumbai,3.5
+212,56,Male,Clothing,23,Cash,Mumbai,4.4
+213,34,Male,Beauty,187,Credit Card,Kolkata,4.4
+214,29,Male,Electronics,214,Cash,Delhi,3.5
+215,65,Male,Clothing,243,UPI,Delhi,4.7
+216,54,Female,Home,313,UPI,Bengaluru,2.8
+217,19,Female,Beauty,107,Cash,Delhi,3.6
+218,24,Female,Electronics,243,Credit Card,Kolkata,4.7
+219,65,Female,Beauty,133,Debit Card,Delhi,3.8
+220,25,Male,Sports,281,Cash,Bengaluru,4.3
+221,59,Male,Electronics,140,Debit Card,Bengaluru,3
+222,56,Male,Electronics,409,Debit Card,Pune,4.1
+223,47,Female,Sports,409,Cash,Pune,4.9
+224,38,Male,Electronics,245,UPI,Kolkata,4.1
+225,35,Female,Sports,48,Credit Card,Bengaluru,3.7
+226,20,Female,Clothing,208,Credit Card,Hyderabad,4.7
+227,23,Female,Sports,324,UPI,Chennai,3.9
+228,65,Male,Clothing,250,Cash,Chennai,3.7
+229,27,Male,Clothing,250,Cash,Hyderabad,2.7
+230,59,Male,Electronics,40,UPI,Kolkata,3.8
+231,57,Female,Electronics,206,Cash,Kolkata,3.5
+232,39,Female,Sports,46,Credit Card,Bengaluru,2.7
+233,61,Female,Home,165,Debit Card,Bengaluru,2.7
+234,60,Female,Electronics,489,Cash,Hyderabad,4.2
+235,43,Male,Electronics,324,Cash,Chennai,3.4
+236,39,Male,Electronics,363,UPI,Chennai,3.4
+237,41,Male,Beauty,112,Cash,Pune,3.7
+238,32,Male,Electronics,99,Cash,Pune,4.5
+239,50,Male,Sports,447,Cash,Pune,4
+240,56,Male,Home,98,Debit Card,Pune,4.2
+241,57,Female,Electronics,389,Credit Card,Kolkata,3.4
+242,64,Female,Electronics,247,UPI,Mumbai,3.8
+243,37,Male,Home,482,Cash,Hyderabad,4.9
+244,46,Female,Home,413,UPI,Chennai,3.8
+245,28,Male,Electronics,430,Cash,Delhi,4.1
+246,41,Male,Sports,498,Credit Card,Bengaluru,2.7
+247,28,Male,Beauty,250,UPI,Delhi,4.9
+248,32,Female,Home,472,Credit Card,Kolkata,2.6
+249,50,Female,Beauty,140,Credit Card,Bengaluru,3.1
+250,38,Female,Clothing,449,Debit Card,Mumbai,2.6
+251,48,Female,Electronics,408,UPI,Chennai,2.5
+252,23,Male,Clothing,151,Debit Card,Chennai,4.9
+253,56,Male,Sports,236,Cash,Mumbai,3.3
+254,21,Female,Electronics,234,Credit Card,Delhi,4.6
+255,49,Male,Sports,294,Debit Card,Hyderabad,2.9
+256,45,Female,Clothing,334,Debit Card,Chennai,3.5
+257,60,Female,Clothing,288,Credit Card,Chennai,3.9
+258,50,Female,Sports,30,UPI,Delhi,4.1
+259,41,Male,Beauty,402,Cash,Pune,2.7
+260,33,Female,Clothing,415,Debit Card,Delhi,3.4
+261,39,Female,Electronics,445,UPI,Hyderabad,3
+262,26,Female,Clothing,386,Credit Card,Bengaluru,3
+263,30,Female,Clothing,181,UPI,Pune,3.9
+264,34,Male,Clothing,405,Cash,Bengaluru,4.7
+265,21,Male,Beauty,159,Cash,Kolkata,4.7
+266,65,Female,Home,478,Cash,Mumbai,3.7
+267,49,Female,Beauty,493,Credit Card,Hyderabad,3.6
+268,45,Male,Sports,441,Cash,Bengaluru,2.8
+269,38,Female,Beauty,176,UPI,Mumbai,4.2
+270,40,Female,Home,41,UPI,Bengaluru,4.1
+271,21,Female,Clothing,363,Cash,Chennai,4.5
+272,61,Male,Electronics,35,UPI,Delhi,2.8
+273,33,Female,Beauty,205,Credit Card,Chennai,2.9
+274,46,Female,Beauty,210,Credit Card,Chennai,2.8
+275,41,Female,Home,180,Debit Card,Delhi,2.6
+276,29,Female,Home,285,Credit Card,Bengaluru,4.4
+277,63,Female,Home,129,UPI,Mumbai,2.8
+278,22,Female,Home,108,Credit Card,Pune,4.2
+279,38,Male,Beauty,383,Cash,Bengaluru,4.6
+280,63,Female,Electronics,426,Debit Card,Delhi,5
+281,26,Female,Electronics,424,Credit Card,Bengaluru,3.9
+282,41,Male,Home,431,Credit Card,Delhi,3.3
+283,63,Female,Home,289,UPI,Pune,3.9
+284,26,Male,Beauty,348,UPI,Kolkata,4.2
+285,40,Male,Electronics,469,Debit Card,Kolkata,3.8
+286,21,Male,Clothing,285,Cash,Mumbai,2.9
+287,63,Female,Electronics,197,Credit Card,Bengaluru,3
+288,53,Female,Beauty,84,Credit Card,Chennai,4.1
+289,55,Male,Sports,98,Cash,Pune,4.8
+290,20,Male,Clothing,61,Cash,Hyderabad,3
+291,54,Male,Home,336,UPI,Hyderabad,3.9
+292,59,Male,Beauty,267,UPI,Bengaluru,3.6
+293,62,Female,Clothing,100,UPI,Kolkata,3.7
+294,39,Female,Sports,93,Cash,Hyderabad,5
+295,40,Female,Home,86,Credit Card,Bengaluru,3.1
+296,25,Male,Beauty,250,Debit Card,Delhi,2.6
+297,42,Male,Sports,234,Debit Card,Pune,3.3
+298,54,Male,Beauty,117,UPI,Chennai,3.7
+299,37,Male,Home,31,UPI,Chennai,3.6
+300,33,Female,Electronics,318,Credit Card,Delhi,3.2
+301,56,Male,Home,166,Credit Card,Kolkata,2.8
+302,34,Female,Beauty,411,Cash,Delhi,3.5
+303,54,Female,Sports,119,Cash,Delhi,3.5
+304,46,Male,Sports,163,Debit Card,Delhi,3.5
+305,39,Female,Sports,500,Debit Card,Mumbai,4
+306,43,Male,Sports,40,Credit Card,Mumbai,4.3
+307,48,Male,Sports,253,Debit Card,Bengaluru,4.8
+308,38,Female,Electronics,221,Cash,Chennai,4.6
+309,52,Female,Home,382,UPI,Pune,2.5
+310,39,Female,Clothing,233,Credit Card,Chennai,3.7
+311,59,Male,Sports,315,Credit Card,Chennai,3.7
+312,51,Female,Sports,416,Debit Card,Pune,4.2
+313,20,Male,Sports,378,Debit Card,Delhi,3.6
+314,44,Male,Electronics,231,UPI,Chennai,4.4
+315,48,Male,Clothing,381,Debit Card,Chennai,3.3
+316,60,Female,Home,289,Cash,Mumbai,3.6
+317,52,Female,Beauty,299,Cash,Chennai,3.7
+318,33,Female,Beauty,305,Debit Card,Bengaluru,4.4
+319,63,Female,Electronics,373,Cash,Kolkata,3.4
+320,64,Male,Beauty,167,UPI,Kolkata,4.5
+321,27,Female,Beauty,41,Credit Card,Bengaluru,4.8
+322,59,Female,Beauty,402,Debit Card,Mumbai,4.6
+323,35,Female,Sports,376,Debit Card,Delhi,4
+324,55,Male,Electronics,144,Debit Card,Hyderabad,3.1
+325,24,Female,Home,189,Credit Card,Hyderabad,4.4
+326,18,Male,Sports,495,UPI,Hyderabad,4.8
+327,48,Male,Home,353,Cash,Bengaluru,3.2
+328,21,Male,Clothing,353,Credit Card,Mumbai,3.5
+329,29,Female,Clothing,448,UPI,Mumbai,4.8
+330,36,Female,Clothing,24,Credit Card,Bengaluru,3.2
+331,59,Female,Sports,288,Debit Card,Pune,3.8
+332,35,Male,Electronics,434,Cash,Mumbai,4.3
+333,59,Male,Beauty,387,Credit Card,Hyderabad,3.3
+334,36,Male,Sports,365,Debit Card,Chennai,4.6
+335,43,Female,Home,283,Credit Card,Kolkata,4.2
+336,29,Female,Electronics,264,Debit Card,Delhi,3.2
+337,33,Female,Home,405,Cash,Bengaluru,4
+338,54,Female,Clothing,153,Debit Card,Delhi,4.2
+339,47,Female,Beauty,101,Cash,Hyderabad,2.8
+340,36,Male,Beauty,334,Debit Card,Mumbai,3.7
+341,47,Female,Sports,211,UPI,Pune,3.8
+342,60,Male,Electronics,410,Credit Card,Chennai,3.6
+343,63,Male,Beauty,59,Credit Card,Pune,3.9
+344,50,Male,Electronics,313,Debit Card,Bengaluru,4.6
+345,46,Male,Clothing,368,UPI,Delhi,4.7
+346,46,Male,Clothing,252,UPI,Kolkata,3.9
+347,53,Female,Home,364,Credit Card,Kolkata,3.1
+348,18,Male,Electronics,316,Credit Card,Kolkata,3.4
+349,22,Male,Sports,50,UPI,Delhi,3.2
+350,29,Female,Electronics,412,Cash,Kolkata,3.6
+351,42,Male,Home,61,Cash,Delhi,2.9
+352,52,Male,Home,290,Debit Card,Pune,2.5
+353,19,Female,Beauty,257,UPI,Pune,3.1
+354,47,Female,Beauty,99,Debit Card,Hyderabad,4.4
+355,20,Male,Home,334,Debit Card,Mumbai,2.7
+356,56,Male,Clothing,248,Debit Card,Hyderabad,2.6
+357,46,Male,Electronics,296,Credit Card,Mumbai,3.8
+358,36,Female,Electronics,437,Cash,Mumbai,3.3
+359,27,Female,Sports,133,Cash,Bengaluru,2.7
+360,55,Female,Electronics,340,UPI,Delhi,4.9
+361,59,Female,Home,422,UPI,Kolkata,2.9
+362,42,Female,Electronics,406,Debit Card,Pune,3.1
+363,63,Female,Electronics,432,Credit Card,Chennai,3.5
+364,44,Male,Sports,291,UPI,Mumbai,3.1
+365,39,Female,Clothing,492,Cash,Delhi,3.8
+366,30,Female,Clothing,157,Credit Card,Pune,2.7
+367,55,Female,Sports,131,Debit Card,Pune,4.8
+368,37,Male,Clothing,128,Credit Card,Hyderabad,5
+369,48,Male,Electronics,376,UPI,Mumbai,3.9
+370,36,Female,Home,258,Cash,Bengaluru,3.4
+371,49,Female,Home,70,Cash,Mumbai,3.4
+372,44,Male,Clothing,308,Debit Card,Delhi,3.2
+373,55,Female,Sports,388,Cash,Mumbai,3
+374,32,Male,Home,311,UPI,Chennai,4.1
+375,61,Female,Beauty,151,UPI,Kolkata,2.9
+376,40,Female,Electronics,91,Debit Card,Chennai,5
+377,21,Male,Sports,37,Credit Card,Pune,2.5
+378,26,Male,Electronics,54,Credit Card,Mumbai,3.8
+379,41,Female,Clothing,336,UPI,Delhi,2.5
+380,53,Male,Home,26,Cash,Chennai,4.9
+381,19,Female,Sports,436,Debit Card,Delhi,4.8
+382,51,Male,Electronics,143,Cash,Pune,3.4
+383,43,Female,Clothing,211,UPI,Chennai,3.1
+384,62,Male,Electronics,173,Credit Card,Delhi,3.5
+385,42,Male,Sports,263,Credit Card,Hyderabad,2.9
+386,49,Female,Home,350,Credit Card,Chennai,4.8
+387,32,Female,Electronics,481,Cash,Delhi,4.8
+388,61,Male,Beauty,480,Debit Card,Pune,3.3
+389,31,Female,Sports,93,Credit Card,Bengaluru,2.9
+390,33,Female,Sports,447,Cash,Kolkata,4.4
+391,26,Female,Clothing,276,Credit Card,Delhi,3.6
+392,22,Female,Beauty,329,Cash,Delhi,4.1
+393,46,Female,Home,136,UPI,Kolkata,3
+394,55,Female,Home,63,Debit Card,Hyderabad,2.7
+395,35,Male,Electronics,214,UPI,Bengaluru,3.4
+396,23,Female,Clothing,177,Cash,Pune,3.2
+397,26,Female,Clothing,115,UPI,Chennai,3.9
+398,44,Male,Clothing,33,Cash,Chennai,2.7
+399,56,Female,Beauty,462,Credit Card,Bengaluru,3.5
+400,23,Male,Sports,483,Debit Card,Hyderabad,3.5
+401,26,Female,Beauty,174,UPI,Mumbai,2.7
+402,45,Female,Beauty,235,UPI,Pune,2.7
+403,34,Female,Electronics,389,Debit Card,Kolkata,2.8
+404,37,Female,Clothing,222,UPI,Pune,4.7
+405,46,Male,Beauty,240,Cash,Bengaluru,4
+406,62,Female,Electronics,265,Debit Card,Kolkata,4.9
+407,36,Male,Home,314,Cash,Kolkata,3.2
+408,43,Male,Beauty,78,Debit Card,Hyderabad,4.4
+409,19,Male,Home,382,UPI,Pune,3.2
+410,62,Female,Clothing,439,UPI,Mumbai,4.1
+411,33,Male,Beauty,357,UPI,Pune,3.4
+412,46,Female,Sports,265,UPI,Chennai,2.6
+413,41,Male,Sports,324,Credit Card,Pune,3.1
+414,60,Male,Beauty,105,UPI,Pune,3.3
+415,45,Male,Clothing,25,Cash,Mumbai,3.8
+416,51,Male,Sports,317,UPI,Bengaluru,3.5
+417,61,Male,Sports,373,Cash,Delhi,3.7
+418,36,Male,Home,491,Credit Card,Pune,4.9
+419,27,Female,Beauty,179,UPI,Pune,3
+420,48,Male,Beauty,263,UPI,Hyderabad,4.2
+421,38,Male,Clothing,173,Credit Card,Delhi,4.6
+422,59,Male,Clothing,366,Debit Card,Chennai,2.9
+423,28,Female,Beauty,306,UPI,Mumbai,4.5
+424,58,Female,Electronics,115,UPI,Delhi,4.3
+425,30,Female,Home,323,UPI,Delhi,4.3
+426,31,Male,Beauty,405,Credit Card,Pune,4.7
+427,29,Male,Beauty,186,UPI,Delhi,3.2
+428,49,Female,Sports,347,UPI,Chennai,3.5
+429,25,Female,Beauty,200,Debit Card,Pune,4.2
+430,37,Male,Sports,322,Debit Card,Bengaluru,2.8
+431,37,Female,Clothing,113,Debit Card,Chennai,3.5
+432,56,Female,Electronics,314,UPI,Mumbai,3.7
+433,52,Male,Electronics,304,UPI,Bengaluru,2.9
+434,38,Male,Home,337,Cash,Delhi,3.7
+435,30,Female,Home,307,UPI,Hyderabad,3.7
+436,63,Male,Home,270,Credit Card,Chennai,2.6
+437,32,Female,Beauty,36,Debit Card,Chennai,3.2
+438,47,Female,Sports,400,Credit Card,Chennai,2.8
+439,52,Male,Beauty,297,UPI,Chennai,3
+440,45,Male,Clothing,396,Cash,Pune,5
+441,46,Male,Beauty,198,UPI,Pune,5
+442,33,Female,Electronics,435,UPI,Mumbai,4
+443,31,Male,Electronics,432,Cash,Chennai,3.2
+444,52,Female,Electronics,185,Cash,Chennai,3.2
+445,50,Female,Clothing,89,Credit Card,Bengaluru,4.7
+446,26,Male,Electronics,147,Cash,Pune,3.1
+447,61,Male,Home,270,Cash,Hyderabad,3.5
+448,46,Male,Clothing,344,UPI,Chennai,4.4
+449,62,Female,Beauty,252,Cash,Chennai,2.5
+450,64,Female,Clothing,394,Cash,Pune,2.7
+451,52,Female,Home,131,Debit Card,Kolkata,3.2
+452,36,Male,Beauty,300,UPI,Pune,3.4
+453,61,Male,Clothing,43,UPI,Delhi,2.8
+454,28,Male,Home,253,UPI,Mumbai,5
+455,26,Female,Beauty,101,Credit Card,Hyderabad,3.4
+456,23,Male,Beauty,360,Credit Card,Kolkata,4.1
+457,64,Male,Electronics,239,Credit Card,Delhi,3
+458,22,Male,Electronics,323,UPI,Delhi,2.5
+459,39,Female,Clothing,460,Debit Card,Kolkata,2.7
+460,42,Male,Clothing,394,Credit Card,Bengaluru,3.4
+461,37,Male,Electronics,215,Debit Card,Delhi,3.8
+462,18,Male,Sports,352,UPI,Bengaluru,4.3
+463,58,Female,Electronics,490,UPI,Pune,3
+464,24,Male,Electronics,405,UPI,Bengaluru,4.9
+465,38,Female,Electronics,146,Credit Card,Mumbai,3.9
+466,56,Male,Sports,165,Cash,Mumbai,3.8
+467,50,Female,Electronics,402,Cash,Hyderabad,2.6
+468,33,Male,Home,217,Debit Card,Kolkata,4.1
+469,22,Male,Sports,475,Cash,Bengaluru,2.8
+470,54,Male,Home,207,UPI,Pune,2.7
+471,55,Female,Clothing,27,Debit Card,Delhi,4.8
+472,43,Female,Sports,166,UPI,Hyderabad,3.5
+473,58,Male,Sports,295,Cash,Delhi,3.3
+474,50,Male,Electronics,433,Cash,Kolkata,4
+475,59,Female,Clothing,178,Debit Card,Delhi,3.1
+476,45,Male,Clothing,252,Cash,Hyderabad,4.4
+477,65,Male,Electronics,81,Debit Card,Hyderabad,2.5
+478,49,Female,Beauty,287,Debit Card,Bengaluru,2.8
+479,35,Male,Clothing,414,Cash,Pune,3.6
+480,51,Male,Clothing,154,UPI,Kolkata,3.8
+481,21,Male,Home,459,Cash,Mumbai,3.1
+482,24,Male,Sports,365,Debit Card,Hyderabad,3.8
+483,20,Male,Clothing,145,UPI,Bengaluru,3.5
+484,27,Male,Electronics,496,UPI,Mumbai,3.3
+485,44,Male,Beauty,158,Cash,Delhi,3.8
+486,21,Male,Electronics,134,UPI,Delhi,4.7
+487,36,Male,Beauty,187,UPI,Delhi,3.4
+488,36,Female,Sports,421,Debit Card,Kolkata,3.4
+489,49,Male,Electronics,395,Debit Card,Delhi,4.8
+490,19,Female,Electronics,297,Credit Card,Bengaluru,2.5
+491,60,Female,Home,454,Credit Card,Mumbai,3.8
+492,33,Male,Home,271,Debit Card,Hyderabad,3.2
+493,20,Female,Electronics,479,Cash,Kolkata,4.9
+494,23,Male,Sports,68,UPI,Delhi,4
+495,21,Male,Home,359,Debit Card,Bengaluru,3.2
+496,38,Female,Home,378,Cash,Kolkata,3.2
+497,22,Male,Electronics,89,Debit Card,Delhi,2.9
+498,47,Male,Beauty,228,Cash,Pune,3
+499,37,Male,Home,155,Credit Card,Mumbai,4.5
+500,37,Male,Sports,40,Cash,Mumbai,2.7
+501,33,Male,Beauty,222,Cash,Bengaluru,4.6
+502,29,Female,Clothing,227,Debit Card,Delhi,3.7
+503,26,Male,Clothing,26,Debit Card,Mumbai,3
+504,43,Male,Beauty,371,Cash,Pune,2.7
+505,22,Female,Electronics,482,Debit Card,Delhi,4.8
+506,39,Female,Clothing,41,Credit Card,Mumbai,4.8
+507,45,Male,Home,274,UPI,Hyderabad,3.6
+508,40,Male,Electronics,485,Cash,Bengaluru,3.6
+509,27,Male,Clothing,334,Cash,Kolkata,3.5
+510,53,Male,Home,51,Cash,Kolkata,2.8
+511,30,Male,Sports,147,UPI,Pune,4.3
+512,48,Female,Sports,420,Cash,Chennai,3.8
+513,42,Male,Beauty,112,Cash,Chennai,3
+514,35,Female,Clothing,434,Cash,Pune,4
+515,32,Male,Electronics,71,Debit Card,Bengaluru,3.8
+516,65,Male,Clothing,411,UPI,Bengaluru,4.8
+517,29,Female,Electronics,141,Cash,Chennai,2.6
+518,62,Male,Beauty,310,Debit Card,Pune,5
+519,49,Male,Sports,178,UPI,Delhi,2.7
+520,32,Male,Sports,132,UPI,Delhi,3.3
+521,57,Male,Electronics,432,Cash,Hyderabad,2.9
+522,38,Male,Clothing,31,Debit Card,Pune,2.8
+523,51,Female,Beauty,57,UPI,Chennai,2.8
+524,37,Male,Beauty,89,UPI,Pune,4.1
+525,49,Female,Beauty,109,Debit Card,Hyderabad,4
+526,29,Female,Home,177,Debit Card,Mumbai,4.3
+527,62,Male,Sports,220,Debit Card,Chennai,3.3
+528,57,Male,Electronics,347,UPI,Mumbai,3.3
+529,22,Female,Electronics,197,Debit Card,Hyderabad,4.7
+530,23,Male,Beauty,248,Cash,Mumbai,3.1
+531,22,Male,Beauty,151,Credit Card,Delhi,3.5
+532,64,Female,Home,105,UPI,Kolkata,3.4
+533,42,Female,Clothing,444,Debit Card,Mumbai,3.6
+534,20,Female,Beauty,30,Cash,Delhi,2.7
+535,28,Male,Home,102,Credit Card,Bengaluru,4
+536,57,Male,Home,380,UPI,Hyderabad,2.9
+537,45,Male,Electronics,47,Cash,Mumbai,4.9
+538,44,Female,Sports,389,Cash,Bengaluru,3.1
+539,21,Female,Home,312,Debit Card,Delhi,3.4
+540,45,Female,Clothing,170,Debit Card,Delhi,2.6
+541,28,Female,Beauty,61,Credit Card,Bengaluru,4.5
+542,48,Female,Home,478,Credit Card,Hyderabad,3.9
+543,29,Female,Beauty,473,Cash,Mumbai,3.6
+544,34,Female,Home,258,Debit Card,Pune,3.2
+545,21,Male,Electronics,405,Credit Card,Hyderabad,3.4
+546,52,Male,Home,407,Credit Card,Pune,3.5
+547,51,Female,Home,294,Debit Card,Kolkata,3.2
+548,43,Male,Clothing,277,Credit Card,Pune,3.6
+549,28,Male,Electronics,433,Debit Card,Delhi,3.6
+550,61,Male,Home,123,Cash,Bengaluru,4.8
+551,22,Female,Clothing,218,Cash,Pune,3.2
+552,47,Female,Clothing,422,Credit Card,Kolkata,2.9
+553,54,Male,Sports,318,Credit Card,Chennai,4.4
+554,36,Female,Sports,470,UPI,Bengaluru,3.5
+555,49,Female,Sports,331,Credit Card,Mumbai,3.2
+556,27,Female,Sports,331,Credit Card,Kolkata,4.7
+557,39,Female,Electronics,45,Cash,Bengaluru,2.6
+558,37,Female,Beauty,163,Credit Card,Pune,3.1
+559,37,Female,Home,416,Cash,Hyderabad,3.5
+560,59,Female,Clothing,116,Debit Card,Pune,3.5
+561,49,Female,Sports,464,Credit Card,Chennai,4.5
+562,22,Female,Beauty,383,Debit Card,Pune,4.6
+563,54,Male,Clothing,108,Debit Card,Pune,2.6
+564,20,Female,Home,45,Debit Card,Bengaluru,3.4
+565,47,Male,Sports,223,Credit Card,Mumbai,3.4
+566,56,Female,Home,110,Cash,Bengaluru,2.9
+567,34,Male,Clothing,165,UPI,Delhi,2.9
+568,54,Male,Electronics,458,Debit Card,Hyderabad,3
+569,59,Male,Home,282,Credit Card,Kolkata,4.8
+570,59,Male,Electronics,327,Debit Card,Bengaluru,4
+571,37,Female,Beauty,236,Cash,Kolkata,3.1
+572,47,Female,Beauty,366,Credit Card,Delhi,3.8
+573,60,Female,Beauty,307,Cash,Hyderabad,2.8
+574,22,Female,Beauty,161,Cash,Bengaluru,4.1
+575,59,Male,Beauty,116,Debit Card,Delhi,4.5
+576,56,Female,Home,358,Debit Card,Hyderabad,2.6
+577,49,Female,Beauty,152,UPI,Kolkata,4.3
+578,55,Male,Sports,437,Cash,Hyderabad,4.3
+579,61,Female,Sports,346,Cash,Chennai,3.3
+580,28,Female,Sports,112,Credit Card,Kolkata,2.8
+581,34,Male,Sports,410,Cash,Hyderabad,2.7
+582,40,Female,Electronics,401,UPI,Pune,4.7
+583,41,Female,Beauty,319,UPI,Pune,2.8
+584,21,Male,Sports,317,UPI,Mumbai,3.8
+585,61,Female,Home,291,UPI,Delhi,4.7
+586,27,Female,Electronics,122,UPI,Chennai,4.7
+587,47,Male,Electronics,181,Credit Card,Kolkata,3.3
+588,29,Male,Beauty,344,Credit Card,Kolkata,3.2
+589,28,Male,Sports,411,UPI,Pune,4.4
+590,23,Female,Electronics,334,UPI,Kolkata,3.6
+591,48,Male,Home,22,Debit Card,Hyderabad,3.4
+592,18,Male,Beauty,407,Credit Card,Hyderabad,2.5
+593,64,Female,Electronics,135,Cash,Mumbai,2.8
+594,50,Male,Sports,176,Credit Card,Pune,2.6
+595,36,Female,Home,392,UPI,Hyderabad,5
+596,39,Male,Home,203,Debit Card,Pune,3.5
+597,32,Male,Electronics,392,Debit Card,Hyderabad,2.6
+598,50,Female,Electronics,83,Credit Card,Kolkata,4.7
+599,34,Male,Sports,339,Credit Card,Hyderabad,2.8
+600,19,Male,Clothing,373,UPI,Kolkata,3.5
+601,53,Male,Beauty,262,Debit Card,Hyderabad,4.2
+602,18,Male,Beauty,235,Cash,Chennai,4
+603,26,Male,Home,445,Credit Card,Bengaluru,2.8
+604,24,Male,Home,121,Cash,Pune,3.8
+605,30,Female,Beauty,380,Cash,Mumbai,2.6
+606,49,Female,Electronics,372,Cash,Mumbai,2.5
+607,60,Male,Clothing,484,UPI,Mumbai,4.9
+608,50,Male,Clothing,390,Cash,Hyderabad,3.1
+609,36,Male,Beauty,257,Credit Card,Pune,2.9
+610,20,Female,Beauty,204,UPI,Hyderabad,2.8
+611,20,Male,Clothing,456,Debit Card,Bengaluru,3.4
+612,46,Male,Sports,157,Cash,Pune,3.4
+613,25,Female,Home,224,Cash,Pune,3.5
+614,48,Male,Home,352,Credit Card,Mumbai,4.2
+615,21,Female,Electronics,73,UPI,Pune,3.9
+616,46,Female,Electronics,332,Cash,Chennai,2.6
+617,61,Female,Electronics,267,Credit Card,Kolkata,3.6
+618,22,Female,Beauty,355,Credit Card,Hyderabad,4.7
+619,51,Male,Sports,390,Cash,Chennai,3.8
+620,62,Female,Sports,68,Debit Card,Kolkata,3.4
+621,61,Male,Home,96,Credit Card,Hyderabad,4.8
+622,50,Female,Home,456,Debit Card,Delhi,4.4
+623,38,Female,Electronics,189,Credit Card,Chennai,3.1
+624,59,Male,Home,226,Credit Card,Kolkata,3.6
+625,54,Female,Home,65,UPI,Bengaluru,2.8
+626,49,Female,Clothing,72,UPI,Delhi,3.9
+627,18,Female,Clothing,425,Debit Card,Hyderabad,4.2
+628,39,Male,Beauty,442,Debit Card,Pune,3.6
+629,53,Female,Sports,327,Cash,Hyderabad,3.6
+630,24,Female,Electronics,21,Cash,Pune,4.1
+631,36,Female,Sports,287,Credit Card,Delhi,4.7
+632,49,Female,Electronics,440,Credit Card,Bengaluru,4
+633,30,Female,Clothing,496,Debit Card,Kolkata,4.6
+634,30,Female,Beauty,75,Credit Card,Hyderabad,4.6
+635,55,Female,Clothing,415,UPI,Hyderabad,4
+636,50,Male,Electronics,275,Credit Card,Chennai,4.8
+637,55,Male,Home,493,Debit Card,Hyderabad,4.5
+638,24,Female,Home,356,UPI,Kolkata,4.9
+639,62,Female,Electronics,160,Cash,Bengaluru,3.6
+640,26,Female,Electronics,231,Cash,Hyderabad,4.3
+641,53,Male,Electronics,122,Cash,Hyderabad,3.4
+642,61,Male,Electronics,383,Cash,Hyderabad,2.8
+643,40,Female,Sports,265,Cash,Pune,3.6
+644,18,Male,Sports,74,UPI,Mumbai,2.6
+645,21,Male,Electronics,156,Cash,Hyderabad,3.1
+646,21,Male,Beauty,124,Cash,Pune,3.6
+647,57,Male,Sports,462,UPI,Mumbai,3.8
+648,62,Male,Beauty,374,UPI,Kolkata,3.5
+649,61,Male,Beauty,302,Credit Card,Hyderabad,3.1
+650,57,Male,Home,444,Cash,Pune,4
+651,65,Male,Sports,120,Cash,Kolkata,2.9
+652,61,Male,Clothing,115,Credit Card,Kolkata,2.6
+653,35,Male,Sports,155,Debit Card,Chennai,4.6
+654,18,Male,Beauty,258,Credit Card,Mumbai,4.8
+655,56,Female,Clothing,416,UPI,Pune,3.9
+656,40,Female,Clothing,421,Debit Card,Mumbai,3.8
+657,50,Female,Electronics,232,Credit Card,Bengaluru,3.1
+658,31,Female,Beauty,189,Cash,Mumbai,4.9
+659,57,Male,Sports,263,Credit Card,Hyderabad,3.4
+660,33,Male,Sports,490,Credit Card,Hyderabad,4.7
+661,42,Female,Clothing,217,Cash,Delhi,4.8
+662,41,Female,Sports,431,UPI,Delhi,3.2
+663,59,Male,Electronics,184,Credit Card,Mumbai,4.9
+664,52,Male,Sports,23,Debit Card,Hyderabad,4.1
+665,31,Male,Home,447,Debit Card,Chennai,4.6
+666,65,Male,Home,351,Debit Card,Delhi,3.6
+667,39,Male,Clothing,64,Credit Card,Mumbai,4.5
+668,53,Male,Clothing,314,Cash,Kolkata,3.5
+669,58,Female,Home,241,Credit Card,Kolkata,4.2
+670,52,Male,Clothing,348,Credit Card,Hyderabad,4.6
+671,40,Female,Sports,74,Cash,Chennai,2.7
+672,46,Male,Home,222,UPI,Mumbai,3.8
+673,26,Female,Home,427,Debit Card,Bengaluru,4.2
+674,64,Male,Beauty,25,Credit Card,Delhi,2.5
+675,56,Male,Home,295,Cash,Mumbai,4.4
+676,64,Female,Beauty,128,Debit Card,Mumbai,3
+677,57,Male,Beauty,119,Debit Card,Hyderabad,4.5
+678,21,Male,Sports,256,Cash,Hyderabad,2.7
+679,24,Female,Electronics,391,Cash,Bengaluru,2.8
+680,59,Female,Electronics,71,Credit Card,Mumbai,3.3
+681,46,Female,Beauty,335,Debit Card,Chennai,3.9
+682,38,Male,Home,106,Cash,Mumbai,4.5
+683,63,Female,Home,161,Debit Card,Hyderabad,4.3
+684,48,Female,Home,248,Cash,Kolkata,3.9
+685,29,Female,Sports,61,Debit Card,Chennai,3
+686,64,Male,Clothing,392,Credit Card,Pune,3.8
+687,19,Female,Sports,316,Debit Card,Delhi,3.9
+688,52,Male,Sports,261,Cash,Kolkata,3.1
+689,55,Female,Beauty,88,Credit Card,Kolkata,3.4
+690,18,Male,Electronics,454,Debit Card,Kolkata,2.9
+691,54,Male,Sports,357,UPI,Bengaluru,2.6
+692,49,Female,Electronics,52,Cash,Mumbai,2.6
+693,31,Female,Sports,484,UPI,Kolkata,4.8
+694,20,Female,Clothing,352,Credit Card,Hyderabad,4.9
+695,58,Female,Beauty,447,Debit Card,Kolkata,4.1
+696,41,Male,Sports,354,Cash,Kolkata,4.9
+697,32,Female,Sports,227,Cash,Kolkata,4.5
+698,56,Male,Clothing,276,UPI,Mumbai,3.1
+699,50,Male,Beauty,128,Debit Card,Mumbai,3.4
+700,63,Male,Clothing,358,UPI,Pune,3.3
+701,25,Female,Home,365,UPI,Mumbai,4
+702,59,Male,Home,31,Credit Card,Mumbai,3.9
+703,28,Male,Electronics,342,Debit Card,Delhi,2.9
+704,29,Male,Sports,227,Cash,Delhi,3
+705,56,Female,Home,464,Debit Card,Mumbai,4.6
+706,56,Male,Electronics,426,Cash,Mumbai,4.3
+707,39,Male,Home,325,Debit Card,Kolkata,3.5
+708,24,Female,Clothing,123,Debit Card,Chennai,2.7
+709,48,Male,Sports,327,Credit Card,Delhi,3.7
+710,26,Male,Sports,296,UPI,Chennai,3.6
+711,20,Male,Sports,239,UPI,Pune,4.4
+712,40,Male,Sports,431,UPI,Mumbai,3.1
+713,32,Female,Clothing,165,Cash,Mumbai,2.5
+714,65,Male,Clothing,315,Credit Card,Kolkata,4.1
+715,62,Female,Beauty,229,Credit Card,Mumbai,3.6
+716,55,Female,Beauty,153,Cash,Chennai,3.2
+717,61,Male,Home,406,UPI,Chennai,4.5
+718,48,Female,Electronics,209,Cash,Bengaluru,3.9
+719,63,Male,Home,396,Credit Card,Hyderabad,3.1
+720,62,Male,Electronics,71,UPI,Pune,3.3
+721,53,Male,Sports,376,Debit Card,Kolkata,4.9
+722,18,Male,Clothing,441,UPI,Chennai,3.6
+723,22,Female,Beauty,133,Credit Card,Chennai,2.6
+724,42,Female,Home,334,Credit Card,Pune,4.6
+725,58,Male,Home,244,Debit Card,Pune,4.1
+726,51,Male,Beauty,119,Debit Card,Chennai,2.9
+727,20,Male,Beauty,142,Debit Card,Delhi,5
+728,43,Female,Beauty,362,UPI,Chennai,3
+729,18,Male,Clothing,490,Cash,Hyderabad,4.6
+730,55,Female,Beauty,197,Debit Card,Chennai,4.9
+731,47,Male,Home,314,Cash,Mumbai,3.5
+732,24,Female,Sports,57,Cash,Delhi,4.5
+733,34,Female,Sports,436,UPI,Kolkata,3.9
+734,33,Female,Beauty,417,UPI,Chennai,4.7
+735,48,Male,Clothing,152,UPI,Hyderabad,4.5
+736,32,Female,Electronics,429,UPI,Bengaluru,3.8
+737,18,Female,Beauty,147,Credit Card,Kolkata,4.2
+738,39,Male,Clothing,303,UPI,Bengaluru,3.4
+739,54,Male,Beauty,113,UPI,Hyderabad,3
+740,65,Female,Electronics,466,Debit Card,Mumbai,3
+741,33,Male,Sports,202,Credit Card,Delhi,4.8
+742,61,Male,Home,334,Credit Card,Pune,3.7
+743,57,Female,Beauty,272,UPI,Mumbai,5
+744,50,Male,Beauty,223,Debit Card,Delhi,3.8
+745,45,Male,Home,296,Cash,Kolkata,4.7
+746,29,Female,Home,81,Cash,Hyderabad,2.5
+747,61,Male,Electronics,214,Cash,Bengaluru,4
+748,34,Female,Electronics,300,Debit Card,Bengaluru,3.7
+749,57,Male,Beauty,207,UPI,Kolkata,3
+750,62,Female,Beauty,206,Cash,Kolkata,2.9
+751,26,Male,Sports,371,Credit Card,Hyderabad,3.2
+752,33,Female,Sports,241,Debit Card,Mumbai,4.5
+753,65,Male,Electronics,262,Debit Card,Kolkata,3.7
+754,58,Female,Sports,293,UPI,Bengaluru,3.1
+755,54,Male,Clothing,223,Debit Card,Delhi,3
+756,34,Male,Home,449,UPI,Hyderabad,3.3
+757,41,Female,Beauty,306,Cash,Delhi,3.5
+758,40,Male,Sports,121,Cash,Bengaluru,3.3
+759,50,Female,Home,416,Credit Card,Kolkata,4
+760,47,Male,Electronics,464,Cash,Kolkata,4.1
+761,54,Male,Home,454,Credit Card,Mumbai,3.4
+762,38,Female,Beauty,354,Cash,Chennai,4.1
+763,35,Female,Home,419,UPI,Kolkata,2.9
+764,19,Male,Electronics,392,Cash,Hyderabad,4.3
+765,23,Female,Electronics,105,Credit Card,Delhi,2.7
+766,48,Male,Sports,47,UPI,Chennai,4.4
+767,23,Male,Clothing,154,Credit Card,Hyderabad,4.8
+768,42,Male,Beauty,137,Cash,Kolkata,4.1
+769,26,Male,Sports,449,Credit Card,Delhi,4.2
+770,38,Female,Home,259,UPI,Mumbai,4.9
+771,62,Female,Sports,110,UPI,Chennai,4.1
+772,52,Female,Beauty,485,UPI,Chennai,3.1
+773,23,Female,Home,177,UPI,Bengaluru,2.9
+774,18,Male,Clothing,287,Cash,Bengaluru,3.7
+775,18,Female,Home,406,Cash,Delhi,4.4
+776,36,Male,Sports,138,Cash,Mumbai,3.5
+777,53,Male,Home,222,Debit Card,Hyderabad,4.3
+778,42,Female,Home,132,Credit Card,Kolkata,4.1
+779,51,Female,Sports,433,Cash,Hyderabad,4.4
+780,35,Male,Home,116,Debit Card,Mumbai,3.2
+781,58,Female,Home,336,Cash,Hyderabad,4.1
+782,30,Male,Beauty,29,Credit Card,Chennai,2.6
+783,24,Male,Beauty,157,UPI,Hyderabad,2.5
+784,23,Female,Electronics,27,Debit Card,Bengaluru,3.6
+785,49,Male,Beauty,257,Cash,Delhi,4.6
+786,27,Female,Clothing,156,Credit Card,Chennai,3.7
+787,30,Female,Beauty,438,Credit Card,Delhi,4.9
+788,63,Female,Electronics,217,Debit Card,Hyderabad,5
+789,30,Male,Home,396,Debit Card,Kolkata,3.5
+790,37,Male,Beauty,101,Credit Card,Bengaluru,3.7
+791,37,Male,Electronics,204,Debit Card,Delhi,3.1
+792,45,Male,Beauty,27,Cash,Chennai,2.8
+793,33,Female,Clothing,41,Debit Card,Bengaluru,4.4
+794,33,Male,Electronics,275,Cash,Pune,4.1
+795,21,Male,Beauty,350,Credit Card,Mumbai,3.7
+796,38,Female,Sports,423,UPI,Hyderabad,3
+797,62,Male,Home,203,Cash,Delhi,3.7
+798,46,Female,Sports,170,Debit Card,Chennai,3
+799,40,Female,Beauty,394,Cash,Pune,4.6
+800,53,Male,Electronics,55,UPI,Bengaluru,4.5
+801,52,Male,Beauty,252,UPI,Hyderabad,3
+802,19,Female,Sports,458,Debit Card,Bengaluru,4.3
+803,60,Female,Sports,439,Debit Card,Chennai,4.2
+804,53,Female,Electronics,333,Cash,Kolkata,4.1
+805,25,Male,Clothing,287,Credit Card,Pune,4.8
+806,29,Male,Clothing,123,UPI,Mumbai,2.7
+807,54,Female,Home,356,Cash,Delhi,3.4
+808,56,Male,Clothing,26,UPI,Pune,2.7
+809,58,Female,Clothing,204,Cash,Pune,4.3
+810,57,Male,Beauty,290,Credit Card,Pune,3.3
+811,31,Male,Sports,69,Debit Card,Chennai,3.5
+812,30,Male,Sports,356,Debit Card,Chennai,4.4
+813,44,Female,Clothing,412,UPI,Hyderabad,4.2
+814,24,Male,Electronics,425,UPI,Chennai,3.3
+815,28,Female,Sports,327,Cash,Bengaluru,3.9
+816,38,Female,Beauty,231,Cash,Chennai,3.1
+817,52,Female,Electronics,212,Cash,Kolkata,3.6
+818,43,Male,Clothing,391,Cash,Chennai,2.5
+819,26,Female,Beauty,23,Debit Card,Mumbai,4.6
+820,19,Male,Beauty,490,Credit Card,Delhi,3.7
+821,27,Female,Electronics,155,Debit Card,Mumbai,3.1
+822,37,Female,Clothing,312,Debit Card,Hyderabad,2.7
+823,38,Female,Home,108,Credit Card,Chennai,4.1
+824,20,Male,Sports,215,Credit Card,Pune,3.3
+825,45,Male,Home,496,Debit Card,Hyderabad,4.1
+826,56,Female,Clothing,344,Credit Card,Bengaluru,3.8
+827,38,Male,Sports,309,Cash,Chennai,4.2
+828,27,Female,Clothing,364,UPI,Pune,4
+829,50,Female,Clothing,133,Cash,Pune,3.5
+830,26,Female,Beauty,62,Credit Card,Chennai,3.5
+831,23,Female,Home,276,Debit Card,Pune,2.8
+832,53,Female,Electronics,269,Debit Card,Chennai,4
+833,65,Male,Sports,146,Credit Card,Bengaluru,4.4
+834,38,Male,Sports,65,UPI,Kolkata,3.4
+835,30,Male,Beauty,196,Cash,Mumbai,5
+836,57,Male,Home,339,UPI,Delhi,4.8
+837,32,Female,Electronics,370,Debit Card,Pune,4.3
+838,23,Male,Clothing,398,Debit Card,Chennai,4.8
+839,36,Male,Clothing,195,Cash,Kolkata,3.7
+840,39,Male,Electronics,398,Debit Card,Chennai,3.8
+841,34,Male,Sports,267,Credit Card,Kolkata,4
+842,60,Female,Sports,42,Debit Card,Delhi,3.2
+843,62,Male,Sports,158,UPI,Hyderabad,4.9
+844,22,Female,Home,358,Cash,Pune,2.8
+845,36,Female,Home,138,Credit Card,Bengaluru,3.7
+846,56,Male,Sports,65,Debit Card,Chennai,4.9
+847,53,Male,Clothing,40,Cash,Bengaluru,3.7
+848,65,Female,Electronics,29,Cash,Bengaluru,4.1
+849,33,Male,Sports,161,Cash,Kolkata,4.7
+850,19,Male,Sports,163,Debit Card,Bengaluru,4.7
+851,60,Female,Electronics,64,Debit Card,Kolkata,3.1
+852,27,Female,Home,179,UPI,Chennai,2.8
+853,59,Male,Electronics,317,Debit Card,Bengaluru,4.2
+854,51,Male,Electronics,240,Debit Card,Bengaluru,2.7
+855,52,Female,Clothing,114,Debit Card,Hyderabad,2.6
+856,38,Female,Home,230,UPI,Hyderabad,4.8
+857,58,Male,Beauty,97,Credit Card,Mumbai,3
+858,57,Male,Sports,156,Debit Card,Mumbai,4.2
+859,40,Female,Clothing,372,Debit Card,Chennai,4.6
+860,48,Female,Beauty,114,UPI,Kolkata,2.8
+861,30,Female,Electronics,36,Credit Card,Bengaluru,4.9
+862,32,Male,Electronics,407,Credit Card,Mumbai,4.8
+863,46,Female,Sports,270,UPI,Mumbai,3.6
+864,20,Female,Sports,396,Cash,Kolkata,4
+865,65,Male,Sports,324,Credit Card,Kolkata,3.6
+866,20,Female,Electronics,285,Credit Card,Chennai,3.5
+867,58,Female,Clothing,117,UPI,Kolkata,4.7
+868,36,Female,Home,105,Cash,Chennai,4.8
+869,62,Male,Sports,482,UPI,Pune,4.1
+870,23,Male,Sports,77,Debit Card,Kolkata,3.5
+871,46,Female,Clothing,111,Debit Card,Kolkata,2.7
+872,38,Male,Electronics,387,Credit Card,Delhi,4.3
+873,58,Female,Beauty,63,Debit Card,Kolkata,3.9
+874,20,Female,Electronics,487,Debit Card,Mumbai,4.7
+875,29,Female,Clothing,234,Cash,Hyderabad,4.4
+876,46,Male,Beauty,340,Credit Card,Mumbai,4.9
+877,18,Female,Sports,411,Credit Card,Kolkata,3.7
+878,49,Male,Sports,433,UPI,Mumbai,3
+879,60,Female,Home,252,UPI,Delhi,4
+880,18,Female,Electronics,471,Debit Card,Delhi,3
+881,21,Male,Beauty,38,Credit Card,Hyderabad,3.9
+882,56,Male,Beauty,189,Credit Card,Delhi,3.5
+883,29,Female,Electronics,364,Debit Card,Kolkata,4.4
+884,41,Female,Clothing,67,Cash,Bengaluru,4.7
+885,22,Male,Home,451,Cash,Kolkata,2.8
+886,62,Female,Beauty,188,Debit Card,Hyderabad,3
+887,21,Male,Clothing,312,UPI,Hyderabad,4.2
+888,63,Female,Beauty,238,Cash,Chennai,3.9
+889,57,Male,Beauty,494,UPI,Chennai,4.3
+890,49,Male,Home,433,Debit Card,Hyderabad,3.2
+891,30,Male,Clothing,80,UPI,Hyderabad,4.5
+892,65,Female,Electronics,429,UPI,Delhi,3.3
+893,53,Male,Electronics,25,Cash,Bengaluru,4.5
+894,37,Female,Beauty,279,Credit Card,Delhi,4.2
+895,39,Male,Home,390,Debit Card,Mumbai,3.3
+896,39,Female,Home,489,Credit Card,Hyderabad,2.8
+897,27,Female,Home,476,UPI,Pune,4.5
+898,65,Female,Clothing,447,Cash,Chennai,3.8
+899,31,Female,Sports,370,Cash,Delhi,4.9
+900,35,Female,Clothing,193,Debit Card,Chennai,4
+901,29,Female,Sports,79,Cash,Hyderabad,2.6
+902,44,Male,Clothing,274,Cash,Kolkata,4.6
+903,37,Female,Electronics,288,Debit Card,Delhi,3.4
+904,20,Male,Electronics,487,UPI,Chennai,2.6
+905,48,Male,Sports,98,Cash,Kolkata,4.3
+906,51,Female,Beauty,417,Debit Card,Pune,4.7
+907,51,Male,Electronics,125,UPI,Kolkata,4.3
+908,51,Female,Clothing,22,Credit Card,Hyderabad,4.6
+909,23,Male,Beauty,259,Credit Card,Chennai,4.4
+910,65,Female,Beauty,31,Debit Card,Bengaluru,3
+911,36,Female,Beauty,292,UPI,Hyderabad,2.8
+912,27,Male,Electronics,160,Credit Card,Chennai,3.9
+913,24,Female,Electronics,297,Cash,Bengaluru,2.9
+914,63,Male,Beauty,313,Debit Card,Delhi,3.3
+915,39,Male,Sports,247,Debit Card,Delhi,3.7
+916,61,Female,Clothing,74,Credit Card,Delhi,3.6
+917,29,Female,Sports,476,Cash,Bengaluru,3.3
+918,30,Female,Sports,60,Debit Card,Delhi,4.5
+919,62,Female,Home,69,Cash,Hyderabad,4.1
+920,47,Male,Home,138,Debit Card,Pune,4.7
+921,34,Male,Beauty,220,Cash,Pune,4.7
+922,38,Male,Home,269,Credit Card,Kolkata,2.8
+923,48,Male,Home,453,Cash,Pune,3.4
+924,54,Male,Electronics,280,UPI,Pune,4.3
+925,24,Male,Beauty,304,Cash,Chennai,3.7
+926,55,Male,Home,142,Debit Card,Kolkata,3.5
+927,39,Female,Electronics,436,UPI,Chennai,4.5
+928,52,Male,Electronics,108,UPI,Delhi,4
+929,47,Male,Beauty,304,UPI,Mumbai,3.3
+930,43,Male,Clothing,326,UPI,Bengaluru,3.7
+931,60,Male,Clothing,66,Debit Card,Chennai,4.8
+932,58,Male,Clothing,407,Debit Card,Kolkata,3.8
+933,42,Female,Sports,315,Debit Card,Mumbai,4.2
+934,38,Female,Beauty,311,UPI,Hyderabad,5
+935,40,Male,Clothing,318,UPI,Pune,2.8
+936,36,Male,Clothing,209,Credit Card,Hyderabad,3.9
+937,40,Female,Clothing,460,Credit Card,Mumbai,3.6
+938,55,Female,Home,340,UPI,Kolkata,3.5
+939,52,Male,Electronics,359,UPI,Mumbai,3
+940,42,Female,Beauty,450,Debit Card,Bengaluru,5
+941,60,Male,Electronics,88,Credit Card,Hyderabad,2.5
+942,64,Female,Home,356,Debit Card,Delhi,2.8
+943,44,Female,Home,477,Debit Card,Kolkata,3.8
+944,53,Female,Home,216,Debit Card,Mumbai,3.6
+945,18,Male,Sports,275,Cash,Kolkata,4.8
+946,54,Male,Beauty,37,UPI,Hyderabad,3.4
+947,55,Male,Home,373,Debit Card,Hyderabad,4.3
+948,35,Male,Home,284,Credit Card,Mumbai,3.7
+949,65,Female,Clothing,370,Credit Card,Bengaluru,3.8
+950,18,Female,Home,252,Cash,Kolkata,3.4
+951,36,Male,Beauty,105,Cash,Hyderabad,4.5
+952,34,Female,Clothing,342,Debit Card,Chennai,2.6
+953,36,Female,Sports,33,UPI,Delhi,2.8
+954,22,Male,Beauty,149,Cash,Bengaluru,4.6
+955,18,Male,Clothing,329,Debit Card,Hyderabad,3.6
+956,29,Male,Beauty,420,UPI,Mumbai,4.5
+957,20,Male,Beauty,63,Debit Card,Pune,3.7
+958,44,Female,Home,141,Debit Card,Mumbai,3.9
+959,40,Female,Clothing,348,Credit Card,Delhi,2.9
+960,43,Female,Home,174,Debit Card,Kolkata,4.2
+961,42,Male,Home,154,UPI,Delhi,3.2
+962,46,Female,Home,367,Credit Card,Delhi,4.8
+963,58,Female,Beauty,452,Cash,Bengaluru,3.2
+964,24,Female,Beauty,355,UPI,Pune,4.2
+965,33,Male,Sports,414,Cash,Hyderabad,4.2
+966,29,Male,Beauty,300,Credit Card,Pune,2.7
+967,44,Male,Clothing,288,UPI,Bengaluru,3
+968,36,Male,Beauty,118,Credit Card,Chennai,2.7
+969,56,Male,Electronics,326,Credit Card,Delhi,4.6
+970,26,Male,Home,356,Credit Card,Hyderabad,3
+971,36,Male,Home,358,UPI,Bengaluru,4.4
+972,62,Male,Beauty,151,Credit Card,Bengaluru,4.4
+973,42,Male,Home,190,Cash,Pune,3.2
+974,46,Male,Clothing,271,UPI,Mumbai,4.1
+975,24,Female,Electronics,296,Debit Card,Chennai,4.1
+976,46,Male,Beauty,72,Credit Card,Delhi,3.9
+977,34,Female,Home,29,Debit Card,Hyderabad,4.1
+978,20,Male,Home,156,Cash,Kolkata,3.9
+979,50,Female,Home,264,UPI,Pune,4.3
+980,22,Male,Sports,135,UPI,Hyderabad,4.5
+981,48,Female,Clothing,310,Cash,Hyderabad,3.3
+982,21,Female,Clothing,207,Credit Card,Pune,3.6
+983,36,Male,Electronics,110,UPI,Hyderabad,3
+984,62,Male,Home,478,Cash,Kolkata,2.7
+985,58,Male,Home,396,Debit Card,Delhi,3
+986,64,Female,Sports,142,UPI,Delhi,4.5
+987,59,Female,Beauty,275,Credit Card,Delhi,3.3
+988,39,Male,Clothing,227,Debit Card,Pune,4.1
+989,51,Male,Home,367,Debit Card,Delhi,2.6
+990,27,Male,Home,354,UPI,Chennai,2.6
+991,62,Male,Electronics,27,Credit Card,Bengaluru,4.6
+992,24,Male,Home,332,Credit Card,Pune,4.5
+993,25,Male,Home,324,Credit Card,Pune,3
+994,39,Male,Home,186,Debit Card,Bengaluru,4.6
+995,31,Male,Clothing,323,Cash,Delhi,2.8
+996,27,Female,Home,106,Debit Card,Kolkata,3.1
+997,55,Male,Clothing,88,UPI,Pune,2.9
+998,49,Male,Clothing,23,Debit Card,Delhi,4.3
+999,55,Female,Beauty,233,Debit Card,Mumbai,2.9
+1000,35,Female,Sports,250,Debit Card,Mumbai,4

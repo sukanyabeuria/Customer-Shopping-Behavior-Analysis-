@@ -15,7 +15,7 @@ def main():
 
     try:
         # Load Dataset
-        dataset_path = "../data/customer_shopping_behavior.csv"
+        dataset_path = "data/customer_shopping_behavior.csv"
         df = load_data(dataset_path)
 
         print("\n✅ Dataset Loaded Successfully!")

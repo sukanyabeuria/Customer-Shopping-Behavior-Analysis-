@@ -4,8 +4,16 @@ import pandas as pd
 def load_data(file_path):
     """
     Load the dataset from a CSV file.
+    Tries UTF-8 first, then Latin-1 if needed.
     """
-    df = pd.read_csv(file_path)
+    try:
+        df = pd.read_csv(file_path, encoding="utf-8")
+    except UnicodeDecodeError:
+        try:
+            df = pd.read_csv(file_path, encoding="utf-8-sig")
+        except UnicodeDecodeError:
+            df = pd.read_csv(file_path, encoding="latin1")
+
     return df
 
 
