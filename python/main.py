@@ -9,7 +9,7 @@ from database import connect_database
 
 def main():
     connection = connect_database
-    
+
     print("=" * 60)
     print(" CUSTOMER SHOPPING BEHAVIOR ANALYSIS PROJECT ")
     print("=" * 60)
@@ -62,3 +62,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+    connection = connect_database()
+    from sqlalchemy import text
+
+result = connection.execute(text("SELECT COUNT(*) FROM customer_shopping"))
+
+for row in result:
+    print("Total rows in database:", row[0])

@@ -1,34 +1,35 @@
 import pandas as pd
 
 
+def line():
+    print("\n" + "═" * 70)
+
+
 def dataset_summary(df):
-    print("\n" + "=" * 60)
-    print("DATASET SUMMARY")
-    print("=" * 60)
+    line()
+    print("📊 DATASET SUMMARY")
+    line()
 
-    print("\nShape:")
-    print(df.shape)
+    print(f"\n📌 Shape            : {df.shape}")
+    print(f"\n📋 Columns          : {df.columns.tolist()}")
 
-    print("\nColumns:")
-    print(df.columns.tolist())
-
-    print("\nData Types:")
+    print("\n🧩 Data Types")
     print(df.dtypes)
 
-    print("\nMissing Values:")
+    print("\n❌ Missing Values")
     print(df.isnull().sum())
 
-    print("\nDuplicate Rows:")
+    print("\n🔁 Duplicate Rows")
     print(df.duplicated().sum())
 
-    print("\nSummary Statistics:")
+    print("\n📈 Summary Statistics")
     print(df.describe(include="all"))
 
 
 def sales_by_gender(df):
-    print("\n" + "=" * 60)
-    print("SALES BY GENDER")
-    print("=" * 60)
+    line()
+    print("👨‍🦰 SALES BY GENDER")
+    line()
 
     if "Gender" in df.columns:
         result = (
@@ -36,13 +37,14 @@ def sales_by_gender(df):
             .sum()
             .sort_values(ascending=False)
         )
+
         print(result)
 
 
 def sales_by_category(df):
-    print("\n" + "=" * 60)
-    print("SALES BY CATEGORY")
-    print("=" * 60)
+    line()
+    print("🛍️ SALES BY CATEGORY")
+    line()
 
     if "Category" in df.columns:
         result = (
@@ -50,23 +52,24 @@ def sales_by_category(df):
             .sum()
             .sort_values(ascending=False)
         )
+
         print(result)
 
 
 def average_purchase(df):
-    print("\n" + "=" * 60)
-    print("AVERAGE PURCHASE")
-    print("=" * 60)
+    line()
+    print("💰 AVERAGE PURCHASE")
+    line()
 
     average = df["Purchase Amount (USD)"].mean()
 
-    print(f"Average Purchase Amount : ${average:.2f}")
+    print(f"\nAverage Purchase Amount : ${average:.2f}")
 
 
 def highest_purchase(df):
-    print("\n" + "=" * 60)
-    print("HIGHEST PURCHASE")
-    print("=" * 60)
+    line()
+    print("🏆 HIGHEST PURCHASE")
+    line()
 
     highest = df.loc[df["Purchase Amount (USD)"].idxmax()]
 
@@ -74,9 +77,9 @@ def highest_purchase(df):
 
 
 def lowest_purchase(df):
-    print("\n" + "=" * 60)
-    print("LOWEST PURCHASE")
-    print("=" * 60)
+    line()
+    print("📉 LOWEST PURCHASE")
+    line()
 
     lowest = df.loc[df["Purchase Amount (USD)"].idxmin()]
 
@@ -97,4 +100,6 @@ def perform_eda(df):
 
     lowest_purchase(df)
 
-    print("\nEDA Completed Successfully!")
+    line()
+    print("✅ EDA COMPLETED SUCCESSFULLY")
+    line()

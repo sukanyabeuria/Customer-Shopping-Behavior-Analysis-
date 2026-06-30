@@ -3,6 +3,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
+# Professional Theme
+plt.style.use("dark_background")
+
 
 def sales_prediction(df):
     """
@@ -28,40 +31,70 @@ def sales_prediction(df):
     mse = mean_squared_error(y_test, y_pred)
     r2 = r2_score(y_test, y_pred)
 
-    print("\n" + "=" * 60)
-    print("SALES PREDICTION MODEL")
-    print("=" * 60)
+    print("\n" + "═" * 70)
+    print("🤖 SALES PREDICTION MODEL")
+    print("═" * 70)
 
-    print(f"Mean Squared Error : {mse:.2f}")
-    print(f"R² Score           : {r2:.2f}")
+    print(f"📉 Mean Squared Error : {mse:.2f}")
+    print(f"🎯 R² Score           : {r2:.2f}")
 
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(10, 7))
 
+    # Actual vs Predicted Points
     plt.scatter(
         y_test,
         y_pred,
-        color="blue"
+        s=80,
+        color="#ff4da6",
+        edgecolors="white",
+        linewidth=0.8,
+        alpha=0.9,
+        label="Predicted"
     )
 
+    # Perfect Prediction Line
     plt.plot(
         [y_test.min(), y_test.max()],
         [y_test.min(), y_test.max()],
-        color="red",
-        linewidth=2
+        color="#00FFFF",
+        linewidth=3,
+        linestyle="--",
+        label="Perfect Prediction"
     )
 
-    plt.title("Actual vs Predicted Purchase Amount")
+    plt.title(
+        "📈 Actual vs Predicted Purchase Amount",
+        fontsize=20,
+        fontweight="bold",
+        color="white"
+    )
 
-    plt.xlabel("Actual Purchase Amount")
+    plt.xlabel(
+        "Actual Purchase Amount (USD)",
+        fontsize=13,
+        fontweight="bold"
+    )
 
-    plt.ylabel("Predicted Purchase Amount")
+    plt.ylabel(
+        "Predicted Purchase Amount (USD)",
+        fontsize=13,
+        fontweight="bold"
+    )
 
-    plt.grid(True)
+    plt.grid(
+        linestyle="--",
+        alpha=0.3
+    )
+
+    plt.legend(
+        facecolor="black",
+        edgecolor="white",
+        fontsize=11
+    )
 
     plt.tight_layout()
-
     plt.show()
 
-    print("\nSales Prediction Completed Successfully!")
+    print("\n✨ Sales Prediction Completed Successfully!")
 
     return model

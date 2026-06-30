@@ -1,82 +1,169 @@
-# Customer Shopping Behavior Analysis
+# 🛍️ Customer Shopping Behavior Analysis
 
-## Overview
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
+![SQL](https://img.shields.io/badge/SQL-Queries-green?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-red?style=for-the-badge)
+<p align="center">
+  <img src="images/banner.png" alt="Customer Shopping Behavior Analysis Banner" width="100%">
+</p>
+---
 
-This project analyzes customer shopping behavior using Python, Data Analysis, Machine Learning, Data Visualization, and an Interactive Dashboard.
+## 📌 Overview
 
-It helps understand customer purchasing patterns and predicts purchase amounts.
+An end-to-end Data Analytics project that analyzes customer shopping behavior using **Python, SQL, PostgreSQL, Machine Learning, and Power BI**.
+
+The project performs data cleaning, exploratory data analysis, customer segmentation, sales prediction, SQL analysis, and interactive dashboard creation.
 
 ---
 
-## Features
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Customer Segmentation using K-Means
-- Sales Prediction using Linear Regression
-- Interactive Dashboard
-- Data Visualization
-- Database Connection (PostgreSQL Placeholder)
+# 🛍️ Customer Shopping Behavior Analysis
+# 🚀 Features
 
----
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Scikit-learn
-- PostgreSQL
+- ✅ Data Cleaning
+- ✅ Exploratory Data Analysis
+- ✅ Feature Engineering
+- ✅ Customer Segmentation (K-Means)
+- ✅ Sales Prediction (Linear Regression)
+- ✅ SQL Queries
+- ✅ PostgreSQL Database
+- ✅ Interactive Power BI Dashboard
 
 ---
 
-## Project Structure
+# 🛠 Tech Stack
+
+- 🐍 Python
+- 🐼 Pandas
+- 📊 Matplotlib
+- 🎨 Seaborn
+- 📈 Plotly
+- 🤖 Scikit-Learn
+- 🐘 PostgreSQL
+- 🗄 SQL
+- 📉 Power BI
+
+---
+
+# 📂 Project Structure
 
 ```
 Customer-Shopping-Behavior-Analysis
 │
-├── data
-├── images
-├── notebooks
-├── powerbi
-├── python
-├── sql
-└── README.md
+├── python/
+│   ├── main.py
+│   ├── data_cleaning.py
+│   ├── eda.py
+│   ├── feature_engineering.py
+│   ├── customer_segmentation.py
+│   ├── sales_prediction.py
+│   ├── dashboard.py
+│   ├── visualization.py
+│   └── database.py
+│
+├── sql/
+│   ├── create_table.sql
+│   ├── insert_data.sql
+│   └── analysis_queries.sql
+│
+├── powerbi/
+│
+├── images/
+│
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-## Results
+# 📊 Project Workflow
 
-The project generates:
+CSV Dataset
 
-- Sales by Category
-- Sales by Gender
-- Customer Segmentation
-- Sales Prediction
-- Interactive Dashboard
+⬇
+
+Data Cleaning
+
+⬇
+
+EDA
+
+⬇
+
+Feature Engineering
+
+⬇
+
+Customer Segmentation
+
+⬇
+
+Sales Prediction
+
+⬇
+
+SQL Analysis
+
+⬇
+
+Power BI Dashboard
 
 ---
 
-## Future Improvements
+# 📸 Project Screenshots
 
-- Real-time Dashboard
-- PostgreSQL Integration
-- Flask Web Application
+### Dashboard
+
+(Add dashboard screenshot here)
+
+### Sales Prediction
+
+(Add screenshot)
+
+### Customer Segmentation
+
+(Add screenshot)
+
+### SQL Analysis
+
+(Add screenshot)
+
+---
+
+# ▶️ How to Run
+
+```bash
+git clone <repository-link>
+
+cd Customer-Shopping-Behavior-Analysis
+
+pip install -r requirements.txt
+
+python python/main.py
+```
+
+---
+
+# 📈 Future Improvements
+
+- Streamlit Web App
+- Real-Time Dashboard
 - Customer Recommendation System
-- Deep Learning Models
+- Deep Learning Model
+- Deployment on Cloud
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 **Sukanya Beuria**
 
-B.Tech CSEIT Student
+B.Tech CSE Student
 
-SOA University (ITER)
+Aspiring Data Analyst | Machine Learning Enthusiast
+
+⭐ If you like this project, don't forget to star the repository.
 
 GitHub: https://github.com/sukanyabeuria
