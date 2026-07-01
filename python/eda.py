@@ -10,8 +10,8 @@ def dataset_summary(df):
     print("📊 DATASET SUMMARY")
     line()
 
-    print(f"\n📌 Shape            : {df.shape}")
-    print(f"\n📋 Columns          : {df.columns.tolist()}")
+    print(f"📌 Shape: {df.shape}")
+    print(f"\n📋 Columns: {df.columns.tolist()}")
 
     print("\n🧩 Data Types")
     print(df.dtypes)
@@ -31,14 +31,13 @@ def sales_by_gender(df):
     print("👨‍🦰 SALES BY GENDER")
     line()
 
-    if "Gender" in df.columns:
-        result = (
-            df.groupby("Gender")["Purchase Amount (USD)"]
-            .sum()
-            .sort_values(ascending=False)
-        )
+    result = (
+        df.groupby("Gender")["Purchase Amount (USD)"]
+        .sum()
+        .sort_values(ascending=False)
+    )
 
-        print(result)
+    print(result)
 
 
 def sales_by_category(df):
@@ -46,14 +45,33 @@ def sales_by_category(df):
     print("🛍️ SALES BY CATEGORY")
     line()
 
-    if "Category" in df.columns:
-        result = (
-            df.groupby("Category")["Purchase Amount (USD)"]
-            .sum()
-            .sort_values(ascending=False)
-        )
+    result = (
+        df.groupby("Category")["Purchase Amount (USD)"]
+        .sum()
+        .sort_values(ascending=False)
+    )
 
-        print(result)
+    print(result)
+
+
+def payment_method_analysis(df):
+    line()
+    print("💳 PAYMENT METHOD ANALYSIS")
+    line()
+
+    result = df["Payment Method"].value_counts()
+
+    print(result)
+
+
+def location_analysis(df):
+    line()
+    print("🌍 TOP SHOPPING LOCATIONS")
+    line()
+
+    result = df["Location"].value_counts()
+
+    print(result)
 
 
 def average_purchase(df):
@@ -63,7 +81,17 @@ def average_purchase(df):
 
     average = df["Purchase Amount (USD)"].mean()
 
-    print(f"\nAverage Purchase Amount : ${average:.2f}")
+    print(f"Average Purchase Amount: ${average:.2f}")
+
+
+def total_sales(df):
+    line()
+    print("💵 TOTAL SALES")
+    line()
+
+    total = df["Purchase Amount (USD)"].sum()
+
+    print(f"Total Sales: ${total:,.2f}")
 
 
 def highest_purchase(df):
@@ -87,17 +115,16 @@ def lowest_purchase(df):
 
 
 def perform_eda(df):
+    print("\n✨ CUSTOMER SHOPPING BEHAVIOR ANALYSIS ✨")
 
     dataset_summary(df)
-
-    sales_by_gender(df)
-
-    sales_by_category(df)
-
+    total_sales(df)
     average_purchase(df)
-
+    sales_by_gender(df)
+    sales_by_category(df)
+    payment_method_analysis(df)
+    location_analysis(df)
     highest_purchase(df)
-
     lowest_purchase(df)
 
     line()

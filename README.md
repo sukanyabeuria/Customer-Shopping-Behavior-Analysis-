@@ -1,76 +1,58 @@
-# 🛍️ Customer Shopping Behavior Analysis
+# 🛒 Customer Shopping Behavior Analysis
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
-![SQL](https://img.shields.io/badge/SQL-Queries-green?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-red?style=for-the-badge)
-<p align="center">
-  <img src="images/banner.png" alt="Customer Shopping Behavior Analysis Banner" width="100%">
-</p>
----
-
-## 📌 Overview
-
-An end-to-end Data Analytics project that analyzes customer shopping behavior using **Python, SQL, PostgreSQL, Machine Learning, and Power BI**.
-
-The project performs data cleaning, exploratory data analysis, customer segmentation, sales prediction, SQL analysis, and interactive dashboard creation.
+An end-to-end **Data Analytics Project** that analyzes customer shopping behavior using **Python, PostgreSQL, and Power BI**. This project demonstrates the complete data analytics workflow, from data cleaning and exploratory analysis to SQL-based business insights and interactive dashboard development.
 
 ---
 
+## 📖 Project Overview
 
-# 🛍️ Customer Shopping Behavior Analysis
-# 🚀 Features
+The objective of this project is to analyze customer shopping behavior and uncover meaningful business insights that can help improve sales performance, customer satisfaction, and business decision-making.
 
-- ✅ Data Cleaning
-- ✅ Exploratory Data Analysis
-- ✅ Feature Engineering
-- ✅ Customer Segmentation (K-Means)
-- ✅ Sales Prediction (Linear Regression)
-- ✅ SQL Queries
-- ✅ PostgreSQL Database
-- ✅ Interactive Power BI Dashboard
+The project follows a real-world analytics workflow:
+
+- Data Cleaning using Python
+- Exploratory Data Analysis (EDA)
+- Business Analysis using PostgreSQL
+- Interactive Dashboard using Power BI
+- Version Control using Git & GitHub
 
 ---
 
-# 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - 🐍 Python
 - 🐼 Pandas
+- 🔢 NumPy
 - 📊 Matplotlib
-- 🎨 Seaborn
-- 📈 Plotly
-- 🤖 Scikit-Learn
-- 🐘 PostgreSQL
-- 🗄 SQL
-- 📉 Power BI
+- 📈 Power BI
+- 🗄️ PostgreSQL
+- 💻 SQL
+- 🌿 Git
+- 🐙 GitHub
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
-Customer-Shopping-Behavior-Analysis
+Customer-Shopping-Behavior-Analysis/
+│
+├── data/
+│   └── customer_shopping_behavior.csv
 │
 ├── python/
-│   ├── main.py
 │   ├── data_cleaning.py
 │   ├── eda.py
-│   ├── feature_engineering.py
-│   ├── customer_segmentation.py
-│   ├── sales_prediction.py
 │   ├── dashboard.py
-│   ├── visualization.py
-│   └── database.py
+│   └── sales_prediction.py
 │
-├── sql/
-│   ├── create_table.sql
-│   ├── insert_data.sql
-│   └── analysis_queries.sql
+├── notebooks/
 │
 ├── powerbi/
+│   └── Customer_Behavior_Dashboard.pbix
 │
 ├── images/
+│   └── dashboard.png
 │
 ├── README.md
 └── requirements.txt
@@ -78,92 +60,125 @@ Customer-Shopping-Behavior-Analysis
 
 ---
 
-# 📊 Project Workflow
+## 📊 Dashboard Features
 
-CSV Dataset
+✔ Total Customers KPI
 
-⬇
+✔ Total Revenue KPI
 
-Data Cleaning
+✔ Average Purchase Amount
 
-⬇
+✔ Average Review Rating
 
-EDA
+✔ Customer Distribution by Gender
 
-⬇
+✔ Revenue by Category
 
-Feature Engineering
+✔ Revenue by Location
 
-⬇
+✔ Revenue by Payment Method
 
-Customer Segmentation
-
-⬇
-
-Sales Prediction
-
-⬇
-
-SQL Analysis
-
-⬇
-
-Power BI Dashboard
+✔ Interactive Slicers
+- Gender
+- Category
+- Payment Method
 
 ---
 
-# 📸 Project Screenshots
+## 📸 Dashboard Preview
 
-### Dashboard
+> Add your dashboard screenshot below.
 
-(Add dashboard screenshot here)
-
-### Sales Prediction
-
-(Add screenshot)
-
-### Customer Segmentation
-
-(Add screenshot)
-
-### SQL Analysis
-
-(Add screenshot)
-
----
-
-# ▶️ How to Run
-
-```bash
-git clone <repository-link>
-
-cd Customer-Shopping-Behavior-Analysis
-
-pip install -r requirements.txt
-
-python python/main.py
+```
+images/dashboard.png
 ```
 
 ---
 
-# 📈 Future Improvements
+## 📈 Key Business Insights
 
-- Streamlit Web App
-- Real-Time Dashboard
-- Customer Recommendation System
-- Deep Learning Model
-- Deployment on Cloud
+- Electronics generated the highest overall revenue.
+- Female customers slightly outnumber male customers.
+- Digital payment methods such as UPI and Credit Card are widely used.
+- Revenue distribution varies across cities and product categories.
+- Interactive filters enable dynamic business analysis.
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Sukanyabeuria/Customer-Shopping-Behavior-Analysis.git
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run Python Scripts
+
+```bash
+python python/data_cleaning.py
+
+python python/eda.py
+```
+
+### 4️⃣ Open Power BI Dashboard
+
+Open
+
+```
+powerbi/Customer_Behavior_Dashboard.pbix
+```
+
+using **Microsoft Power BI Desktop**.
+
+---
+
+## 📌 Skills Demonstrated
+
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- SQL Queries
+- Data Visualization
+- Dashboard Design
+- Business Intelligence
+- Data Storytelling
+- Git & GitHub
+
+---
+
+## 🚀 Future Improvements
+
+- Customer Segmentation using Machine Learning
+- Sales Forecasting
+- Predictive Analytics
+- Power BI Service Deployment
+- Automated ETL Pipeline
 
 ---
 
 ## 👩‍💻 Author
 
-**Sukanya Beuria**
+### Sukanya Beuria
 
-B.Tech CSE Student
+**B.Tech CSE Student | Aspiring Data Analyst**
 
-Aspiring Data Analyst | Machine Learning Enthusiast
+### 🌐 Connect with Me
 
-⭐ If you like this project, don't forget to star the repository.
+**GitHub**
 
-GitHub: https://github.com/sukanyabeuria
+https://github.com/Sukanyabeuria
+
+**LinkedIn**
+
+https://www.linkedin.com/in/sukanya-beuria-2057ab2ba
+
+---
+
+## ⭐ If you found this project helpful, please consider giving it a star on GitHub!
